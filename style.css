@@ -176,3 +176,6 @@ ul li input{
 .chessboard.active .row .chessbox {
     background-color: purple;
 }
+.chessboard.result .row .chessbox {
+    background-color: rgb(0, 115, 255) !important;
+}
