@@ -14,11 +14,11 @@
 3. dữ liệu đầu ra: 
 - hình vẽ minh hoạ các bước xét trạng thái (tương tự như hình đính kèm, nhớ ghi kèm thông tin f(n), g(n), h(n) cho từng trạng thái) và đường đi từ trạng thái xuất phát tới trạng thái xuất phát, hình vẽ được lưu vào file.
 4. viết hàm main để kiểm thử thuật toán 
-  
+</details>
 <details>
 <summary>Git Clone Repository</summary>
   
  1. Clone Repository by Git Bash ( git clone https://github.com/Khanh-BangPham/A-star-algorithm-for-8-puzzle-problem.git )
  2. Run website
  3. Upload taci.txt file
-
+</details>
