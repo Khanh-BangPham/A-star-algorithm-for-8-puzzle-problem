@@ -41,6 +41,10 @@ def print_chessboard(heap, g, goal):
         chessboard.classList.add("--" + str(i))
         if (i == pos):
             chessboard.classList.add("active")
+        des = document.createElement("p")
+        des.classList.add("description")
+        des.innerText = "g = " + str(g) + ", h = " + str(h(heap[i][1], goal)) + ", f = " + str(heap[i][0]);
+        chessboard.appendChild(des)
         for j in range(3):
             row = document.createElement('div')
             row.classList.add("row")
